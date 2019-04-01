@@ -15,6 +15,6 @@ Just a bunch of files to make the process more bearable
   - copypaste the vsCode rebinds (JSON) there. You must open the JSON file, not the interactive one.
 
 - .bashrc with some really usefull stuff (Git helpers, nvm helpers)
-
-## Disclamer
-It's known and I had the... "pleasure" to experience problems with Vagrant, npm, etc... I recommend to use yarn instead of npm if you usually install the dependencies from inside Vagrant. Even then, the installs can fail. I also recomend to install using the `yarn install --no-bin-links` command.
+- Mandatory: Enable windows symlinks (https://superuser.com/questions/124679/how-do-i-create-a-link-in-windows-7-home-premium-as-a-regular-user?answertab=votes#125981): 
+  - Right click on Start→Run and launch secpol.msc.
+  - Open Security Settings → Local Policies → User Rights Assignment and select Create symbolic links (that represents SeCreateSymbolicLinkPrivilege).
